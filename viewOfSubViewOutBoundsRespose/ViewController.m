@@ -7,7 +7,7 @@
 ////此demo 虽然绿色的btn超出了父视图但是 还可以接受点击事件
 
 #import "ViewController.h"
-#import "test.h"
+#import "viewOfSubViewOutBoundsRespose.h"
 
 @interface ViewController ()
 
@@ -21,14 +21,14 @@
     
     
     
-    UIView *bView1 = [[test alloc] initWithFrame:CGRectMake(10, 10, 200, 200)];
+    UIView *bView1 = [[viewOfSubViewOutBoundsRespose alloc] initWithFrame:CGRectMake(10, 10, 200, 200)];
     bView1.tag = 100;
     [self.view addSubview:bView1];
     bView1.backgroundColor = [UIColor blueColor];
     
     
     
-    UIView *bView = [[test alloc] initWithFrame:CGRectMake(90, 90, 200, 200)];
+    UIView *bView = [[viewOfSubViewOutBoundsRespose alloc] initWithFrame:CGRectMake(90, 90, 200, 200)];
     bView.tag = 101;
     [bView1 addSubview:bView];
     bView.backgroundColor = [UIColor redColor];
@@ -43,7 +43,7 @@
     
     [bView addSubview:btn];
     
-    [btn addTarget:self action:@selector(ff) forControlEvents:UIControlEventTouchUpInside];
+    [btn addTarget:self action:@selector(test) forControlEvents:UIControlEventTouchUpInside];
     
     
     
@@ -66,7 +66,7 @@
     
 }
 
-- (void)ff{
+- (void)test{
     NSLog(@"jjjjjjjj");
 }
 

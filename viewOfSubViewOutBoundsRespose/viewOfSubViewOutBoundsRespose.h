@@ -9,6 +9,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface test : UIView
+@interface viewOfSubViewOutBoundsRespose : UIView
 
 @end

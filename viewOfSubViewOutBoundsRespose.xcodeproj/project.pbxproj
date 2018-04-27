@@ -13,7 +13,7 @@
 		749AD5B01E657F900004CCF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749AD5AE1E657F900004CCF7 /* Main.storyboard */; };
 		749AD5B21E657F900004CCF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749AD5B11E657F900004CCF7 /* Assets.xcassets */; };
 		749AD5B51E657F900004CCF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749AD5B31E657F900004CCF7 /* LaunchScreen.storyboard */; };
-		749AD5BE1E657FA20004CCF7 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 749AD5BD1E657FA20004CCF7 /* test.m */; };
+		749AD5BE1E657FA20004CCF7 /* viewOfSubViewOutBoundsRespose.m in Sources */ = {isa = PBXBuildFile; fileRef = 749AD5BD1E657FA20004CCF7 /* viewOfSubViewOutBoundsRespose.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		749AD5B11E657F900004CCF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		749AD5B41E657F900004CCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		749AD5B61E657F900004CCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		749AD5BC1E657FA20004CCF7 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		749AD5BD1E657FA20004CCF7 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		749AD5BC1E657FA20004CCF7 /* viewOfSubViewOutBoundsRespose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewOfSubViewOutBoundsRespose.h; sourceTree = "<group>"; };
+		749AD5BD1E657FA20004CCF7 /* viewOfSubViewOutBoundsRespose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewOfSubViewOutBoundsRespose.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 				749AD5A91E657F900004CCF7 /* AppDelegate.m */,
 				749AD5AB1E657F900004CCF7 /* ViewController.h */,
 				749AD5AC1E657F900004CCF7 /* ViewController.m */,
-				749AD5BC1E657FA20004CCF7 /* test.h */,
-				749AD5BD1E657FA20004CCF7 /* test.m */,
+				749AD5BC1E657FA20004CCF7 /* viewOfSubViewOutBoundsRespose.h */,
+				749AD5BD1E657FA20004CCF7 /* viewOfSubViewOutBoundsRespose.m */,
 				749AD5AE1E657F900004CCF7 /* Main.storyboard */,
 				749AD5B11E657F900004CCF7 /* Assets.xcassets */,
 				749AD5B31E657F900004CCF7 /* LaunchScreen.storyboard */,
@@ -156,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				749AD5AD1E657F900004CCF7 /* ViewController.m in Sources */,
-				749AD5BE1E657FA20004CCF7 /* test.m in Sources */,
+				749AD5BE1E657FA20004CCF7 /* viewOfSubViewOutBoundsRespose.m in Sources */,
 				749AD5AA1E657F900004CCF7 /* AppDelegate.m in Sources */,
 				749AD5A71E657F900004CCF7 /* main.m in Sources */,
 			);
@@ -315,6 +315,7 @@
 				749AD5BB1E657F900004CCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
