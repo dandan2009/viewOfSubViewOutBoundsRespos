@@ -1,0 +1,2 @@
+# viewOfSubViewOutBoundsRespos
+不管是否超出视图都能响应事件；且此View 不会阻挡事件的传递，即使把此View加入UIBtton上面，UIBtton还会响应事件
